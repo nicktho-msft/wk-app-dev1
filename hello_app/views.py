@@ -7,7 +7,7 @@ import json
 def idp():
     return jsonify(
         {
-            "providers": ["Dev01TestObj11.com","Dev01TestObj22.com","Dev01TestObj33.com"],
+            "providers": ["Dev1TestObj1111.com","Dev1TestObj2222.com","Dev1TestObj3333.com"],
         })
 
 @app.route("/about/")
